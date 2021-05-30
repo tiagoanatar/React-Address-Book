@@ -1,5 +1,5 @@
 //import './App.css'
-import React, { useState, useContext } from 'react'
+import React, { useState } from 'react'
 import Header from './components/Header'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'

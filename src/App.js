@@ -53,7 +53,7 @@ const App = () => {
 
             {showAddTask ? (<AddTask onAdd={addTask} />) : ('')}
 
-            {showAddTask == false ? (<Search search={search} setSearch={setSearch} />) : ('')}
+            {showAddTask === false ? (<Search search={search} setSearch={setSearch} />) : ('')}
 
             <taskDataContext.Provider value={taskData}>
             {taskData.length > 0 ? (

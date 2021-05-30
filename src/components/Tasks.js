@@ -18,7 +18,7 @@ const Tasks = ({ onDelete, search }) => {
       ) : ('')
       }
 
-      {search != undefined ? (
+      {search !== undefined ? (
         tasks.filter((eachTask) => (
         eachTask.name.toLowerCase().includes(search.toLowerCase()))).map((eachTask) => (
           <Task key={eachTask.id}

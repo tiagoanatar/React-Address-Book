@@ -59,7 +59,7 @@ const AddTask = ({ onAdd }) => {
         <input
           type='text'
           placeholder='Address'
-          value={name}
+          value={address}
           onChange={(e) => setAddress(e.target.value)}
         />
       </div>
